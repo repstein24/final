@@ -36,6 +36,7 @@ public class Simulator {
 				Random r2 = new Random();
 				int x = r2.nextInt(workers.length);
 				System.out.println("worker " +x+" got the bonus of $ " +myNum);
+				// @BC: Very nicely done!
 				workers[x].earnBonus(myNum);
 			}
 		}
